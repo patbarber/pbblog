@@ -2,18 +2,15 @@
 import ThemeToggleButton from "./ThemeToggleButton";
 import * as CONFIG from "../../config";
 
-type Props = {
-  editHref: string;
-};
 
-const { editHref } = Astro.props as Props;
+
 const showMoreSection = CONFIG.COMMUNITY_INVITE_URL;
 ---
 
 {showMoreSection && <h2 class="heading">Connect with me</h2>}
 <ul>
   {
-    editHref && (
+    (
       <li class={`header-link depth-2`}>
         <a
           href="https://www.linkedin.com/in/patrick-barber-326996146/"
@@ -25,7 +22,7 @@ const showMoreSection = CONFIG.COMMUNITY_INVITE_URL;
     )
   }
   {
-    CONFIG.COMMUNITY_INVITE_URL && (
+    (
       <li class={`header-link depth-2`}>
         <a href="https://github.com/patbarber/pbblog" target="_blank">
           Github
