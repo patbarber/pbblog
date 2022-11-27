@@ -1,19 +1,27 @@
----
-import AvatarList from './AvatarList.astro';
-type Props = {
-	path: string;
-};
-const { path } = Astro.props as Props;
----
-
-<footer>
-	<AvatarList path={path} />
+<footer class="footer">
+  <div class="link-grid">
+    <a href="https://www.linkedin.com/in/patrick-barber-326996146/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/patbarber/pbblog" target="_blank">Github</a>
+  </div>
 </footer>
 
 <style>
-	footer {
-		margin-top: auto;
-		padding: 2rem;
-		border-top: 3px solid var(--theme-divider);
-	}
+  .footer {
+    display: none;
+  }
+
+  .link-grid {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footer {
+      display: inline;
+      margin-top: auto;
+      padding: 2rem;
+      border-top: 3px solid var(--theme-divider);
+    }
+  }
 </style>
