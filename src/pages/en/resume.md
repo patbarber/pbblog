@@ -16,52 +16,39 @@ I am a Web developer specialising in Front end development with some experience 
 
 ### Work Experience
 
-**DesignCrowd, Remote** — September 2022 - PRESENT  
-Role: Software Engineer
-Responsibilities:
+#### **DesignCrowd**  
+**Dates:** September 2022 - Decemember 2022  
+**Role:** Software Engineer  
+**Responsibilities:**
+- Deliver new functionality for the logo maker product
+- Refactor existing UI from Razor into Vue js
+- Update components to use Tailwind classes from legacy CSS libraries
+- Preform scrum master duties and run scrum ceremonies
 
-- VueJs developer
-- Front end specialist in BrandCrowd Division
-- Developing new features for logo maker product
+#### **Annex Digital** 
+**Dates:** January 2021 - September 2022  
+**Role:** Web Developer  
+**Responsibilities:**
+- Deliver new features with different technologies:
+  - Javascript
+  - Typescript
+  - C#
+- Create functional UI using:
+  - HTML/CSS
+  - Vue js
+  - React
+  - Tailwind
+- Run scrum ceremonies and promote agile principles
+- Work within multi-disciplinary teams
+- Work alongside designer, providing feedback and engineering notes
 
-**Annex Digital, Canberra** — January 2021 - September 2022  
-Role: Web Developer
 
-- Full stack developer
-- Consulting to federal government departments
-  and small businesses
-- Provided support to other developers 
-
-  Project: Department of Education, Skills and
-  Employment — 2021-2022
-- Role: Full stack developer
-- Tech stack:
-  ○ VueJS
-  ○ C#
-- Web based portal for applicants to submit bids
-  for work
-
-  Project: Aurabox — 2022-2022
-- Role: Front end developer
-- Tech stack
-  ○ React typescript
-  ○ Electron
-- Windows/MacOS application to upload medical
-  images into a cloud based repository
-    
-  Project: Vood — 2022  
-- Role: Front end developer
-- Tech stack:
-  ○ Next Js/React typescript
-- E-commerce site for ordering a subscription
-  based food delivery
-
-**Services Australia, Canberra** — Web Developer  
-August 2018 - January 2021
-
-- Role: Full stack developer
-- Tech stack:
-  ○ Angular typescript
-- External website for doctors to record and
-  access medical data
-- Internal website for manipulating the database
+#### **Services Australia** 
+**Dates:** August 2018 - January 2021  
+**Role:** Web Developer  
+**Responsibilities:** 
+- Create functional UI using:
+  - HTML/CSS
+  - Angular
+- Develop open API for public consumption
+- Extend existing design concepts into new components
