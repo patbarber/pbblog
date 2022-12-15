@@ -47,8 +47,9 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Section Header': [
+		'General': [
 			{ text: 'Introduction', link: 'en/introduction' },
+			{ text: 'Resume', link: 'en/resume' },
 		],
 	},
 };
