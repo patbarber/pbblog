@@ -51,5 +51,8 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Introduction', link: 'en/introduction' },
 			{ text: 'Resume', link: 'en/resume' },
 		],
+		'Learning': [
+			{ text: 'Javascript Sleep Function', link: 'en/jsSleep' },
+		],
 	},
 };
